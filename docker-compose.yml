@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: crm-leads-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./crm_leads.db:/app/crm_leads.db
+      - ./.env:/app/.env
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
