@@ -29,6 +29,9 @@ docker compose up --build
 - **OperatorSourceWeight** — вес оператора для источника (для распределения)
 
 ## API Endpoints
+<img width="1208" height="786" alt="Api 1" src="https://github.com/user-attachments/assets/4a3baf19-23bc-48bd-8c20-be2e82e39550" />
+<img width="1220" height="470" alt="Api 2" src="https://github.com/user-attachments/assets/2cf68929-562f-40aa-b8d1-a00cac3b0023" />
+
 
 ## Алгоритм распределения
 
